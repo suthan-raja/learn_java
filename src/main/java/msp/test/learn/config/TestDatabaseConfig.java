@@ -20,7 +20,7 @@ import java.util.Map;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories( basePackages = "msp.test.learn.repository.*"
+@EnableJpaRepositories( basePackages = "msp.test.learn.repository"
                         ,transactionManagerRef = "testDbTransactionManager"
                         ,entityManagerFactoryRef = "testDbEntityManager")
 public class TestDatabaseConfig {

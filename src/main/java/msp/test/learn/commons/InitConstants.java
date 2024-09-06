@@ -24,7 +24,7 @@ public class InitConstants {
     File file;
 
 
-    public static String testDbUrl , testDbUsername , testDbPassword  , driverClassName;
+    public static String testDbUrl , testDbUsername , testDbPassword  , driverClassName , supportDBUrl , supportDBUsername , supportDBPassword ;
 
     private void checkOS() {
         String osName = System.getProperty("os.name");
@@ -62,6 +62,10 @@ public class InitConstants {
             testDbUsername = bundle.getString("testDbUserName");
             testDbPassword = bundle.getString("testDbPassword");
             driverClassName = bundle.getString("driverClassName");
+
+            supportDBUrl = bundle.getString("supportUrl");
+            supportDBUsername = bundle.getString("supportUserName");
+            supportDBPassword = bundle.getString("supportPassword");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
