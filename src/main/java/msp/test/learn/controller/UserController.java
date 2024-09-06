@@ -1,7 +1,7 @@
 package msp.test.learn.controller;
 
 
-import msp.test.learn.entity.User;
+import msp.test.learn.entity.user.User;
 import msp.test.learn.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

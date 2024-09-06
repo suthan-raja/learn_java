@@ -1,4 +1,4 @@
-package msp.test.learn.entity;
+package msp.test.learn.entity.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

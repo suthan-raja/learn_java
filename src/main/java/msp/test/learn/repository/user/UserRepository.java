@@ -1,6 +1,6 @@
-package msp.test.learn.repository;
+package msp.test.learn.repository.user;
 
-import msp.test.learn.entity.User;
+import msp.test.learn.entity.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
