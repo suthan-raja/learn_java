@@ -84,5 +84,13 @@ Why use Java Collections Framework ?
 
     * The data structures are highly optimised and also saves a lot of development time.
 
+Java Collection Framework ?
+
+    The Java Collection Framework package (java.util) contains
+
+    1. A set of interfaces
+    2. Implementation class
+    3. Algorithms ( such as sorting and searching ).
+
 
 
