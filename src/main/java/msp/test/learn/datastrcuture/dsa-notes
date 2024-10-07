@@ -1,0 +1,88 @@
+Data structure
+
+A data structure is a meaningful way of arranging and storing data in a computer (RAM) so as to use it efficiently .
+
+Data structure have a 3 types
+
+    1. Linear
+    2. Non - Linear
+    3. Associative
+
+1. Linear
+
+    Linear Have 2 types that are ,
+
+        1.1. static
+        1.2. dynamic
+
+1.1 static
+
+    Static Have one Data Structure that is Array .
+
+1.2 dynamic
+
+    Dynamic Have Some Data structure they are ,
+
+        1. Linked List
+        2. Stack
+        3. Queue
+
+2. Non - Linear
+
+    Non - Linear have two type of data structure they are ,
+
+        2.1 Tree
+        2.2 Graph
+
+3. Associative
+
+    Associative have one data structure that is Hash Maps.
+
+Algorithms
+
+    An algorithms is step by step unambiguous set of instruction for solving problem.
+
+    we can define algorithms for simple real life scenarios like making a pack of noodles to something like
+    playing or suggesting the best photo.
+
+    From washing machines to self-driving cars every deterministic action can be using an algorithm.
+
+
+ -------------------------------------------------------------------------------------------------------------------------------
+
+Topic - 1                               Arrays
+
+An array is linear collection of elements of the same type.
+
+Arrays are used to store multiple values in a  single variable , instead of declaring separate variables for each value.
+Each Array location is accessed using an index, the indexing starts from 0.
+
+                                    Advantages of Array
+
+       * Simple and easy to use .
+       * Fast insertion at the end of the array.  O(1) time
+       * An array element can be accessed in constant time.
+
+                                    Disadvantages of Array
+
+       * Arrays have fixed size can't grow in memory once allocated.
+       * Insertion is the middle requires shifting of elements. O(N) times
+       * Since array requires linear memory block , such blocks might not be available especially if the array size is big.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Java Collections Framework
+
+    Java collections framework provides set of classes and interfaces, to manipulate , organise and perform operations on data
+    without writing your own data structures from scratch.
+
+    It provides you with data-structures and their associated methods that can do anything that you'll ever need to do.
+
+Why use Java Collections Framework ?
+
+    * Use in-build data structures come very handy when are you solving problems or building real software.
+
+    * The data structures are highly optimised and also saves a lot of development time.
+
+
+
