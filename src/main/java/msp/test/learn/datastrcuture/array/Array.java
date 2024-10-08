@@ -75,6 +75,7 @@ public class Array {
         }
 
         //  2. Enhanced For Loop
+
         for(int val : arrVal){
             System.out.println(val);
         }

@@ -141,6 +141,74 @@ You can do anything that too efficiently
     * Filter out duplicate records using a Hashset.
     * Build a Rate Limiting Algorithm using a Queue.
 
+----------------------------------------------------------------------------------------------------------------------
+
+1. ArrayList
+
+   * An array list dynamic array for storing elements. It is like an array , but with no size limit.
+   * ArrayList class maintains insertion order.
+   * we can add or remove elements.
+   * In java it implements the List Interface so that we can use all methods of List interface here.
+
+   1.1 ArrayList Implementation
+
+    * One way of implementing array-list is to initially start with some fixed size array , as soon as that array becomes full,
+      create a new array double size of original array.
+
+    * Copy the elements from the old array, in the new array and delete the old array.
+
+    * If 70% Fill the array after double size to create new array and store old arrays values and remove the old array.
+
+   1.2 ArrayList Features
+
+    * Dynamic Resizing : ArrayList grows dynamically as we added elements to the list or shrinks as we remove elements
+      from the list.
+
+    * Ordered          : ArrayList preserves the order of the elements.
+
+
+   1.3 ArrayList Features
+
+    * Index Based      : ArrayList in java supports random access from the list using index positions starting with '0'.
+
+    * Object Based     : Arraylist can store only Objects data types. They cannot be used for primitive types ( int , float , etc).
+                         We require a wrapper class in that case.
+
+    * Not synchronized : ArrayList in java is not synchronized , we can use the Vector class for the synchronized version.
+
+    Vector can be used an alternative to ArrayList class if synchronisation is required. It means ArrayList operations are
+    not thread safe and multiple threads should not operate on the ArrayList object at the same time.
+
+   1.4 ArrayList Operations
+
+    * Random access takes O(1) time.
+    * Adding element takes amortised constant time O(1).
+    * Inserting / Deleting takes O(n) time.
+    * Searching takes O(n) time for unsorted array and O(log n) for sorted one.
+
+   1.5 Basic syntax
+
+    Doesn't work with primitive data types , have to use wrapper classes
+
+    ArrayList<Type> arr = new ArrayList<Type>();
+
+                    ( OR )
+
+    List<Integer> arr = new ArrayList<>();
+
+    * We can store Objects of various types in this ArrayList instance.
+
+    * Empty ArrayList with initial capacity 10
+
+    * If you want to create an ArrayList instance which can store Objects of multiple data type don't parameterize the instance.
+
+    ArrayList arr = new ArrayList<>();
+
+    arr.add(Integer.valueOf(1));
+    arr.add(String.valueOf("Suthan"));
+
+
+
 
 
 
