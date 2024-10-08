@@ -92,5 +92,60 @@ Java Collection Framework ?
     2. Implementation class
     3. Algorithms ( such as sorting and searching ).
 
+DSA HIERARCHY ?
+
+                                                 Collection
+
+                                                     |
+                                                     |
+
+Interfaces -->    LIST                              SET                         QUEUE
+
+                 ArrayList                        Hashset                      ArrayDeque
+                 LinkedList                       LinkedHashset                LinkedList
+                 Stack                            TreeSet                      PriorityQueue
+                 Vector                           EnumSet
+
+-------------------------------------------------------------------------------------------------------------------
+
+Map --> HashMap , TreeMap , LinkedHashMap
+
+    The Map interface is not subtype of the collection interface.
+    Therefore it behaves a bit differently from the rest of the collection types.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Collection Interface
+
+    * A collection represents a group of objects knows as its elements.
+    * The collection interface is used to pass around collections of objects where maximum generality is desired.
+    For Example , that you have a Collection<String> c,which may be a List , a Set , or another kind of Collection.
+
+Collection Interface methods :
+
+    The collection interface contains methods that perform basic operations, such as int size () , boolean isEmpty () ,
+    boolean contains (Object element) , boolean add (E element) , boolean remove (Object element) , and Iterator<E> iterator ().
+
+    It also contains methods that operate on entire collections , such as boolean containsAll (Collection<?> c)
+    , boolean addAll ( Collection<? extends E> c ) , boolean addAll ( Collection <?> c ),boolean removeAll ( Collection <?> c),
+    boolean retainAll ( Collection<?> c) , and void clear () .
+
+--------------------------------------------------------------------------------------------------------------------
+
+You can do anything that too efficiently
+
+    * Create a list you can easily keep adding to using an ArrayList.
+    * Search a food item's price by its name using a Hashmap.
+    * Sort a list of students by their marks using a Comparator.
+    * Find the top most ordered items using Priority Queue.
+    * Filter out duplicate records using a Hashset.
+    * Build a Rate Limiting Algorithm using a Queue.
+
+
+
+
+
+
+
 
 
