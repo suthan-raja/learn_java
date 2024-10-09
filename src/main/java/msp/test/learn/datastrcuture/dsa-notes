@@ -413,6 +413,29 @@ You can do anything that too efficiently
             * ( Red - Black tree is self balancing tree or Height Balancing Tree )
 
 
+------------------------------------------------------------------------------------------------------------------------
+
+
+9. Map
+
+    * A map contains values on the basis of key , i.e key and value pair . Each key and value pair is known as an entry.
+
+      A map contains unique keys. A map is useful if you have to search , update or delete elements on the basis of a key.
+
+    9.1 Map Implementation
+
+        * The java platform contains three general-purpose Map implementations : HashMap , LinkedHashMap and TreeMap.
+
+        * Their behavior and performance are precisely analogous to HashSet , LinkedHashSet and TreeSet , as discussed.
+
+    9.2 Map Behaviours
+
+        * A Map doesn't allow duplicate keys, but you can have duplicate values.
+
+        * HashMap and LinkedHashMap allow null keys and values , but TreeMap doesn't allow any null key or value.
+
+        * A Map can't be traversed, so you need to convert it into Set using keySet() or entrySet() method.
+
 
 
 
