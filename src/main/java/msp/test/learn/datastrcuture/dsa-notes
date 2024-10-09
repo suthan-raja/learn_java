@@ -207,6 +207,158 @@ You can do anything that too efficiently
     arr.add(Integer.valueOf(1));
     arr.add(String.valueOf("Suthan"));
 
+------------------------------------------------------------------------------------------------------------------------
+
+2. LinkedList
+
+    * A LinkedList is a linear data structure , in which elements are represented as objects and stored in non-contiguous
+      memory locations.
+
+    * It has 2 node one contain value and next one contain next value address.
+
+    2.1 Linked List Implementation
+
+        * In Linked List, we don't have to specify the size of the list as a linked list is a dynamic data structure and
+          it automatically changes size when an element is added or removed.
+
+        * Each node object stores two things, one is the data (value) and the second is the memory location of the next or previous
+          or both and previous object's address.
+
+        * Also, the nodes of the linked list are not stored in a contiguous memory location, they are linked each other with the
+          help of next and previous pointers.
+
+     2.2 Creating Linked List
+
+          LinkedList<Integer> list = new linkedList<>();
+
+     2.3 Linked List Features
+
+        * A linked list provides us the ability to use the non-contiguous memory locations as a contiguous memory location.
+
+        * It is a dynamic data structure, hence there is no need to pre-allocate the memory. This results is efficient
+          utilization of the memory.
+
+        * Also unlike the dynamic array, Insertion and deletion at the ends of the linked list are performed in constant time.
+
+        * Concatenation of two linked lists is much more efficient in terms of time as well as in terms of space.
+
+
+3. Doubly Linked List
+
+    * Doubly Linked List can be traversed in both ways head to tails and tail to head. For this, each object stores data
+      and memory location of next objects as well as the memory location of previous object.
+
+4. Stack
+
+    * Just like arrays and linked lists, a stack is a linear data structure that issued for storing data.
+
+    * Its looks like a real-life stack such as stack of books, stack of plates etc.
+
+    * Stack is an ordered list in which insertion and deletion are done at one end, where the end is generally called
+      the top.
+
+    * The element inserted at last the is the first one to get removed , hence it is called Last in First out Data Structure.
+
+    4.1 Stack Implementation
+
+        * Fixed Size Array
+
+        * Dynamic Array
+
+        * Linked List
+
+    4.2 Stack Features
+
+        * Stacks differ from the arrays in a way that in arrays random access is possible. this means that we can access
+          any element just by using its index in the array. whereas, in a stack only limited access is possible and only
+          top element is directly available.
+
+        * Stacks are generally dynamic in nature. this means that they do not have a fixed size can be increased or decreased
+          depending upon the number of elements.
+
+    4.3 Stack Operations
+
+        * push()
+        * pop()
+        * peak()
+
+5. Queue
+
+    * A queue is just like a  real-life queue, is a sequence of objects waiting to be served in the sequential order
+      starting from the beginning of the queue. Queue maintains First in First Out (FIFO) ordering of data.
+
+    * Examples - Queue of cars at toll both, people standing in a line to buy tickets.
+
+    * Insertion happens at the rear end of the queue whereas deletion happens at the front end of the queue. The front of the
+      queue is returned using the peek operation.
+
+
+    5.1 First in First out Queue Implementation
+
+        * Fixe Size Array ( Circular Array )
+
+        * Dynamic Array
+
+        * Queue using a Linked List
+
+    5.2 Queue Limitations
+
+        * A queue is not readily searchable :
+
+            You might have to maintain another queue to store the dequeued elements in search of the wanted element.
+
+        * Traversal possibly only once      :
+
+            The front most element needs to be dequeued to access the element behind it, this happens throughout queue
+            while traversing through it. in this process the queue becomes empty.
+
+    5.3 Queue operations
+
+                      Exception     Special Value
+
+        * Enqueue --> offer()       or add()
+
+        * Dequeue --> poll()        or remove()
+
+        * peek    --> peek()        or element()
+
+
+6. Deque
+
+    * Deque a linear data structure that allows insertion and deletion of elements a both ends. Deque is an acronym for
+      double-ended queue.
+
+    6.1 Deque Implementation
+
+      * Linked List
+      * Array Deque
+
+      * Array Deque and Linked List are the commonly used deque implementations.
+
+      * The ArrayDeque class in java is an implementation of the Deque interface that uses a resizable array to store its element.
+        Deque in java is a subtype of the Queue interface in  java.util package.
+
+      * Iterable extends -->  Collection extends --> Queue extends --> Deque extends <-- ArrayDeque implements Deque Interface.
+
+      * The ArrayDeque class provides constant-time performance for inserting and removing elements from both ends of the queue,
+        making it a good choice for scenarios where you need to perform many add and remove operations.
+
+    6.2 Deque Operations
+
+       Add Values :
+            * offer() --> offerLast() --> offerFirst() its return special value if its error.
+            * add() --> addFirst() --> addLast() its throws error when it occur error.
+
+       Remove Values :
+            * poll() --> pollFirst() --> pollLast() its return special value if its occur error.
+            * remove() --> removeFirst() --> removeLast() its throw error for when its occur error.
+
+       Fetch Values  :
+            * peek() --> peekFirst() --> peekLast() its return special value if its occur error.
+            * get() --> getFirst() --> getLast()  its throw error for when its occur error.
+
+
+
 
 
 
