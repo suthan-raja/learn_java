@@ -282,6 +282,8 @@ You can do anything that too efficiently
         * pop()
         * peak()
 
+---------------------------------------------------------------------------------------------------------------------------
+
 5. Queue
 
     * A queue is just like a  real-life queue, is a sequence of objects waiting to be served in the sequential order
@@ -357,7 +359,58 @@ You can do anything that too efficiently
             * peek() --> peekFirst() --> peekLast() its return special value if its occur error.
             * get() --> getFirst() --> getLast()  its throw error for when its occur error.
 
+7. Priority Queue
 
+    * A priority queue is a special type of queue in which each element is associated with a  priority value.
+      And, elements are served on the basis of their priority. That is, higher priority elements are removed First.
+
+    7.1 Priority queue implementation
+
+        * Min Heap
+        * Max Heap
+
+    7.2 Priority queue operations
+
+        * Insertion O(log n)
+        * Peek O(1)
+        * Deletion O(log n)
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+8. Set
+
+    * A Set is a Collection that cannot contain duplicate elements. It models the mathematical set abstraction.
+
+    * The Set interface contains only methods inherited from Collection and adds the restriction that duplicate elements
+      are prohibited.
+
+    8.1 The Java platform contains three general-purpose set implementations :
+
+        * HashSet
+
+        * TreeSet
+
+        * LinkedHashSet
+
+    8.2 Set Implementation
+
+        HashSet :
+
+            * which stores its elements in a hash table, is the best-performing implementation .
+            * It makes no guarantees concerning the order
+
+        LinkedHashSet :
+
+            * which is implemented as a hash table with a  linked list running through it , orders its elements based on
+              the order its elements based on the order in which they were inserted into the set (insertion order).
+
+        TreeSet :
+
+            * which stores its elements in a  red-black tree, orders its elements based on their values.
+            * it is substantially slower than HashSet.
+            * ( Red - Black tree is self balancing tree or Height Balancing Tree )
 
 
 
