@@ -8,7 +8,7 @@ abstract class Animal{
         this.name = name;
     }
 
-    public abstract void sound();
+     abstract void sound();
 
     void wild(){
         System.out.println(name + " Wild");

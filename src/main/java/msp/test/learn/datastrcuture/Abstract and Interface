@@ -67,3 +67,14 @@
                 of their location in the class hierarchy.
 
 
+
+     Key Differences
+     Feature	                Abstract Class	                        Interface
+     Instantiation	            Cannot be instantiated	                Cannot be instantiated
+     Method Implementation	    Can have abstract and concrete methods	Can have only abstract methods (before Java 8); can have default and static methods (Java 8+)
+     Access Modifiers	        Can use all access modifiers	        Methods are public by default
+     Fields	                    Can have instance variables	            Only constants (public, static, final)
+     Inheritance	            Single inheritance	                    Multiple inheritance
+     Purpose	                Used to share common code and state	    Used to define a contract for behavior
+
+
