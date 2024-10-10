@@ -58,6 +58,28 @@ public class Array {
         System.out.println("ARRAY LIST : "+ arr);
     }
 
+    public static void arrayMethodsInCollection(){
+
+        int[] arr1 = {1,5,2,7,9};
+
+        int arr[] = new int[10];
+
+        // Arrays Fill
+        // This methods fill the given value in all index in that array
+        Arrays.fill(arr,1);
+        System.out.println("Array : "+Arrays.toString(arr));
+
+        // Arrays sort
+        // This method sort the given array
+        Arrays.sort(arr1);
+
+        // Arrays length
+        // return the length of the array
+        System.out.println("Length : "+arr1.length);
+
+
+    }
+
     public static void main(String[] args) throws InterruptedException {
 
         int[] arrVal = initializeArray();
@@ -101,6 +123,6 @@ public class Array {
         // 5. Sorting Methods
         sortingMethod();
 
-
+        arrayMethodsInCollection();
     }
 }

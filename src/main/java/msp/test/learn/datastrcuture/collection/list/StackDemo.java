@@ -1,8 +1,6 @@
 package msp.test.learn.datastrcuture.collection.list;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class StackDemo {
 
@@ -28,6 +26,16 @@ public class StackDemo {
 
         System.out.println("stack search and return index : " + stack.search("naveen"));
 
+        Vector<String> list = new Vector<>();
+         list.add("kabilan");
+         list.add("naveen");
+         list.add("sathish");
+         list.add("kabilan1");
+         list.add("resma");
+         list.add("sathish1");
+
+         list.get(5);
+        System.out.println("test :"+list.get(4));
         List<Integer> stackInt = new Stack<>();
 
         stackInt.add(1);

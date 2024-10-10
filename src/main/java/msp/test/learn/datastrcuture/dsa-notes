@@ -100,7 +100,9 @@ DSA HIERARCHY ?
                                                      |
 
 Interfaces -->    LIST                              SET                         QUEUE
-
+                    |                                |                            |
+                IMPLEMENTS                        IMPLEMENTS                   IMPLEMENTS
+                    |                                |                            |
                  ArrayList                        Hashset                      ArrayDeque
                  LinkedList                       LinkedHashset                LinkedList
                  Stack                            TreeSet                      PriorityQueue
@@ -207,6 +209,8 @@ You can do anything that too efficiently
     arr.add(Integer.valueOf(1));
     arr.add(String.valueOf("Suthan"));
 
+  1.6   Extends AbstractList<> and Implement List<>
+
 ------------------------------------------------------------------------------------------------------------------------
 
 2. LinkedList
@@ -241,6 +245,10 @@ You can do anything that too efficiently
         * Also unlike the dynamic array, Insertion and deletion at the ends of the linked list are performed in constant time.
 
         * Concatenation of two linked lists is much more efficient in terms of time as well as in terms of space.
+
+     2.4 Implemented methods
+
+        LinkedList implements List<>  , Deque<> and extends AbstractSequentialList
 
 
 3. Doubly Linked List
@@ -435,6 +443,10 @@ You can do anything that too efficiently
         * HashMap and LinkedHashMap allow null keys and values , but TreeMap doesn't allow any null key or value.
 
         * A Map can't be traversed, so you need to convert it into Set using keySet() or entrySet() method.
+
+------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 

@@ -1,0 +1,40 @@
+java.lang.Object
+       ↑
+java.lang.Iterable<E>
+       ↑
+java.util.Collection<E>
+       ↑
+java.util.List<E>
+       ↑
+java.util.AbstractCollection<E>
+       ↑
+java.util.AbstractList<E>         --+--  java.util.AbstractSequentialList<E>
+       ↑                              |
+  +----+----+                         +----> java.util.LinkedList<E>
+  |         |                               (also implements Deque<E>)
+  |         +-------------------------+
+  |                                   |
+java.util.ArrayList<E>         java.util.Vector<E>
+                                (synchronized)
+                                     ↑
+                               java.util.Stack<E>
+                                (LIFO stack)
+
+
+Interfaces:
+    Iterable
+    Collection
+    List
+    RandomAccess
+    Deque
+    Queue
+Classes:
+    Object
+    AbstractCollection
+    AbstractList
+    ArrayList
+    LinkedList
+    Vector
+    Stack
+    AbstractSequentialList
+    CopyOnWriteArrayList

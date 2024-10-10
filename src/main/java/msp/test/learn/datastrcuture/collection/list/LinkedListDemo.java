@@ -97,6 +97,7 @@ public class LinkedListDemo {
         linkedList.addLast(6);
 
         linkedList.offerFirst(7);
+        linkedList.poll();
 
         System.out.println("Linked List : "+linkedList);
 
