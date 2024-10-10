@@ -2,13 +2,17 @@ package msp.test.learn.datastrcuture.abstract_class;
 
 abstract class Animals {
     String name;
+
     Animals(String name) {
         this.name = name;
     }
+
     abstract void sound();
+
     void eat() {
         System.out.println("This animal eats food.");
     }
+    
 }
 
 class Lion extends Animals {

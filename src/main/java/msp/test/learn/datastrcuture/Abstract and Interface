@@ -10,3 +10,60 @@
 
         * It serves as a base class for other classes.
 
+    2. Methods
+
+         2.1 Abstract class can have both abstract and non-abstract or concrete methods
+         2.2 Abstract methods must be implemented by subclass. concrete methods can be overridden
+             but are not required.
+
+    3. Fields
+
+         3.1 An abstract class can have instance variables (fields) and constructors.
+
+    4. Access Modifiers
+
+        4.1 An abstract class can use all access modifiers ( public , protected , private ) for methods and
+            fields
+
+    5. Multiple Inheritance
+
+        5.1 A class can extend only one abstract class ( single inheritance ).
+
+    6. Use Case
+
+        6.1 Use an abstract class when you want to provide a common base with default behaviour ,
+            shared state, or a combination of method implementations.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+2. Interface
+
+     An interface is a reference type in java that contain constants , method signatures , default methods , static methods
+
+     and nested type. It cannot contain instance fields.
+
+
+     1. Instantiation
+
+            1.1 Interface cannot instantiate Directly.
+
+     2. Methods
+
+            2.1 All Methods in interface are implicitly abstract ( before java 8 ) .
+            2.2 From Java  8 onwards,  interface can contain default methods ( with a body ) and static methods.
+            2.3 All methods in interface are public by default.
+
+     3. Fields
+
+            3.1 All fields is an interface are implicitly public , static , final ( constants ) .
+
+     4. Multiple Inheritance
+
+            4.1 A class can implement multiple interfaces ( multiple inheritance ) .
+
+     5.  Use Case
+
+            5.1 Use interfaces when you want to define contract that multiple classes can implement , regardless
+                of their location in the class hierarchy.
+
+

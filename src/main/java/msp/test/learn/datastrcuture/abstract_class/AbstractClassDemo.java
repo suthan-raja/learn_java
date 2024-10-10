@@ -2,7 +2,7 @@ package msp.test.learn.datastrcuture.abstract_class;
 
 abstract class Animal{
 
-    protected String name;
+    static String name;
 
     protected Animal(String name){
         this.name = name;
