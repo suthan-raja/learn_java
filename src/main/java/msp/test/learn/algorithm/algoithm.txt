@@ -107,6 +107,25 @@
             Doesn't adapt well to already sorted data.
 
 
+    3.3 Insertion Sort
+
+        Insertion Sort works by building a sorted array one item at a time, taking one unsorted element, and inserting
+
+        it into its correct position in the sorted portion.
+
+        Pros:
+
+            Efficient for small datasets or nearly sorted data (adaptive).
+
+            Simple to implement, especially for linked lists.
+
+        Cons:
+
+            Time complexity is O(n²) in the worst case.
+
+            Poor performance for large datasets.
+
+
 
 
 
