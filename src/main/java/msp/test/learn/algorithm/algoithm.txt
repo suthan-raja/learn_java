@@ -65,6 +65,49 @@
 
             The process continues until the element is found or the search space is exhausted.
 
+------------------------------------------------------------------------------------------------------------------------
+
+3. Sorting Algorithm
+
+    3.1 Bubble Sort
+
+        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements,
+
+        and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+
+        Pros:
+
+            * Simple to implement.
+
+            * Efficient for small datasets or nearly sorted arrays.
+
+        Cons:
+
+            * Very slow on large datasets; worst-case and average time complexity is O(n²).
+
+            * Poor efficiency for large unsorted data.
+
+
+    3.2 Selection Sort
+
+        Selection sort works by repeatedly finding minimum element from the unsorted part of the list and putting it
+
+        at the beginning.
+
+        Pros:
+
+            Simple to understand and implement.
+
+            Doesn't require much swapping, O(n) swaps.
+
+        Cons:
+
+            Inefficient for large datasets; time complexity is O(n²).
+
+            Doesn't adapt well to already sorted data.
+
+
+
 
 
 
