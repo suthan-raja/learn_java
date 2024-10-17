@@ -7,9 +7,7 @@ public class InsertionSort {
 
 //        64,34,25,12,22 -- 34,64,25,12,22 -- 25,34,64,12,22
 
-
         for(int i = 1 ; i < n ; i++){ // 2
-
             int val = arr[i]; // 34 25
             int j = i - 1;  // 0 1
             while(j >= 0 && arr[j] > val){  // 64 > 34  64 > 25 34 > 25
