@@ -105,8 +105,8 @@ Interfaces -->    LIST                              SET                         
                     |                                |                            |
                  ArrayList                        Hashset                      ArrayDeque
                  LinkedList                       LinkedHashset                LinkedList
-                 Stack                            TreeSet                      PriorityQueue
-                 Vector                           EnumSet
+                 Vector                           TreeSet                      PriorityQueue
+                 Stack                            EnumSet
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -222,7 +222,7 @@ You can do anything that too efficiently
 
     2.1 Linked List Implementation
 
-        * In Linked List, we don't have to specify the size of the list as a linked list is a dynamic data structure and
+        * In Linked List, we don't have to specify the size of the list as a linked list is a dynamic data structure, and
           it automatically changes size when an element is added or removed.
 
         * Each node object stores two things, one is the data (value) and the second is the memory location of the next or previous
@@ -239,7 +239,7 @@ You can do anything that too efficiently
 
         * A linked list provides us the ability to use the non-contiguous memory locations as a contiguous memory location.
 
-        * It is a dynamic data structure, hence there is no need to pre-allocate the memory. This results is efficient
+        * It is a dynamic data structure, hence there is no need to pre-allocate the memory. These results are efficient
           utilization of the memory.
 
         * Also unlike the dynamic array, Insertion and deletion at the ends of the linked list are performed in constant time.
@@ -254,6 +254,7 @@ You can do anything that too efficiently
 3. Doubly Linked List
 
     * Doubly Linked List can be traversed in both ways head to tails and tail to head. For this, each object stores data
+
       and memory location of next objects as well as the memory location of previous object.
 
 4. Stack
@@ -265,7 +266,7 @@ You can do anything that too efficiently
     * Stack is an ordered list in which insertion and deletion are done at one end, where the end is generally called
       the top.
 
-    * The element inserted at last the is the first one to get removed , hence it is called Last in First out Data Structure.
+    * The element inserted at last is the first one to get removed , hence it is called Last in First out Data Structure.
 
     4.1 Stack Implementation
 
@@ -324,7 +325,7 @@ You can do anything that too efficiently
 
     5.3 Queue operations
 
-                      Exception     Special Value
+                      Special Value    Exception
 
         * Enqueue --> offer()       or add()
 

@@ -13,7 +13,7 @@
 
             1.1.2 Insert :
 
-                It takes base on inputs we takes worst case if totally 10 records if i insert 2nd place it moves all
+                It takes base on inputs we take worst case if totally 10 records if i insert 2nd place it moves all
 
                 records and insert that value in 2nd place so its time is linear time based on records and time
 
@@ -47,11 +47,11 @@
 
         The idea behind binary search is to repeatedly divide the search interval in half. If the value of the search
 
-        key is less than the item in the middle of the interval, the search continues in the lower half, otherwise,
+        key is less than the item in the middle of the interval; the search continues in the lower half, otherwise.
 
-        it continues in the upper half. This process is repeated until the target value is found or the search interval
+        It continues in the upper half. This process is repeated until the target value is found or the search interval
 
-        is empty.
+        it is empty.
 
         2.2.1 How it works:
 
@@ -71,9 +71,9 @@
 
     3.1 Bubble Sort
 
-        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements,
+        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements.
 
-        and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+        And swap them if they are in the wrong order. This process is repeated until the list is sorted.
 
         Pros:
 
@@ -124,6 +124,92 @@
             Time complexity is O(n²) in the worst case.
 
             Poor performance for large datasets.
+
+
+    3.4 Merge Sort
+
+        Overview
+
+            Type: Divide and Conquer
+
+            Stability: Stable (preserves the relative order of equal elements)
+
+            Complexity:
+
+                Time: O(n log n) in all cases (best, average, worst)
+
+                Space: O(n) due to temporary arrays
+
+            How It Works
+
+                Divide: Split the array into two halves until each sub-array contains a single element (base case).
+
+                Conquer: Recursively sort both halves.
+
+                Combine: Merge the sorted halves into a single sorted array. This involves comparing the elements of the two halves and putting them in the correct order.
+
+            Advantages
+
+                Predictable O(n log n) performance.
+
+                Good for large datasets and linked lists.
+
+                Works well with external sorting (sorting data that doesn't fit into memory).
+
+            Disadvantages
+
+                Requires additional space for the temporary arrays.
+
+                Slower in practice for smaller datasets compared to other algorithms like Quick Sort.
+
+    3.5 Quick Sort
+
+        overview
+
+            Type: Divide and Conquer
+
+            Stability: Unstable (the relative order of equal elements may not be preserved)
+
+        Complexity:
+
+            Time: O(n log n) on average, O(n²) in the worst case (e.g., when the smallest or largest element is always chosen as the pivot).
+
+            Space: O(log n) due to recursion stack space.
+
+        How It Works
+
+            Choose a Pivot: Select an element from the array (commonly the last element).
+
+            Partition: Rearrange the array so that elements less than the pivot come before it and elements greater come after it. The pivot is now in its final position.
+
+            Recursively Apply: Apply the same process to the sub-arrays formed by the pivot.
+
+        Advantages
+
+            Generally faster in practice than other O(n log n) algorithms like Merge Sort, especially for in-memory sorting.
+
+            Low space complexity compared to Merge Sort.
+
+        Disadvantages
+
+            Worst-case performance of O(n²) can occur without proper pivot selection (e.g., using the first or last element in a sorted or nearly sorted array).
+
+            Not stable by default.
+
+        Comparison
+
+            Stability: Merge Sort is stable, Quick Sort is not.
+
+            Space Complexity: Merge Sort uses more space due to its need for temporary arrays, while Quick Sort can be done in place.
+
+            Performance: Quick Sort tends to be faster in practice due to better cache performance, despite its worst-case scenario.
+
+            These characteristics make both algorithms suitable for different scenarios and types of data.
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
